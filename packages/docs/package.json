@@ -27,9 +27,10 @@
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/ts-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
+    "@ignite-ui/ts-config": "*",
+    "@phosphor-icons/react": "^2.0.15",
     "polished": "^4.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
