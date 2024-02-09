@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@osena-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -28,10 +28,10 @@
     "vite": "^5.0.12"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@osena-ui/eslint-config": "*",
+    "@osena-ui/react": "*",
+    "@osena-ui/tokens": "*",
+    "@osena-ui/ts-config": "*",
     "@phosphor-icons/react": "^2.0.15",
     "@storybook/addon-a11y": "^7.6.13",
     "polished": "^4.3.1",
