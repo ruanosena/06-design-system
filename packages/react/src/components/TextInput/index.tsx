@@ -1,7 +1,10 @@
 import { ComponentProps } from 'react'
 import { Input, Prefix, TextInputContainer } from './styles'
+import { VariantProps } from '@stitches/react'
 
-export interface TextInputProps extends ComponentProps<typeof Input> {
+export interface TextInputProps
+  extends Omit<ComponentProps<typeof Input>, 'size'>,
+    VariantProps<typeof TextInputContainer> {
   prefix?: string
 }
 
